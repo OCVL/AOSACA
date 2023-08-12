@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HTML Help Files">
+      <UniqueIdentifier>{b3197881-d54a-48b0-b927-b54474b74faa}</UniqueIdentifier>
+      <Extensions>hhp;hhc;hhk;gif;jpg</Extensions>
+    </Filter>
+    <Filter Include="HTML Help Topics">
+      <UniqueIdentifier>{af80116b-bfe7-4fc1-8792-8316b7116dfa}</UniqueIdentifier>
+      <Extensions>htm;html</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\AOSACA.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AOSACA.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="hlp\AOSACA.hhk">
+      <Filter>HTML Help Files</Filter>
+    </None>
+    <None Include="hlp\HIDD_ROOT_DIALOG.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\AOSACA.hhc">
+      <Filter>HTML Help Files</Filter>
+    </None>
+    <None Include="res\centroid.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\centroid_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\centroidu2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\closeloop.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\closeloop_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\closeloopu1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\live.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\live_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\liveu1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loopclosed.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loopclosedu1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mirror.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mirroru2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rec.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rec_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\recu2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refraction.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refraction_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refractionu2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\snapshot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\snapshot_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\snapshotu2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\subbkgnd.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\subbkgnd_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\subbkgndu2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svbkgnd.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svbkgnd_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\svbkgndu2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="utils\graycmap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="utils\summercmap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="utils\dmcmap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\settings.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\settings_dis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\settingsu1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\graycmap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\summercmap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dmcmap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AOSACA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WFSImageDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlPanelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVMapDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WFMapDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSFDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMMapDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PupilView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTPlotDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AOSACAParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Centroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMirror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEditCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptCalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Recipes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AOSACADlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AOSACAParamsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AOSACA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WFSImageDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlPanelDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVMapDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WFMapDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSFDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DMMapDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PupilView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTPlotDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AOSACADlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Centroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DMirror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEditCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptCalc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recipes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AOSACAParamsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AOSACA.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hlp\AOSACA.hhp">
+      <Filter>HTML Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
